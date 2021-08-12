@@ -1,1 +1,38 @@
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained.css");
+@import url("colors.css");
+
+
+/* iconview */
+
+iconview.view {
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+iconview.view:backdrop {
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+iconview.view:selected:backdrop {
+    border-radius: 7px;
+    background-color: @theme_unfocused_selected_bg_color;
+}
+
+.view > iconview {
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+.view > iconview:hover {
+    background-color: @hover_color;
+}
+
+.view > iconview:backdrop {
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+.view > iconview:backdrop:hover {
+    background-color: @hover_color;
+}
