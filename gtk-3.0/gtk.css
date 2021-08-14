@@ -106,3 +106,10 @@ headerbar button.titlebutton.close, .titlebar button.titlebutton.close {
 headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:hover {
     background-image: -gtk-scaled(url("assets/close-hover.png"), url("assets/close-hover.png"));
 }
+
+/* Switch */
+
+switch slider {
+     min-width: 20px;
+     min-height: 20px;
+}
