@@ -113,3 +113,17 @@ switch slider {
      min-width: 20px;
      min-height: 20px;
 }
+
+/* panel */
+
+/*
+.xfce4-panel {
+    -gtk-icon-style:  symbolic;
+}
+*/
+
+/*
+#whiskermenu-button  {
+    -gtk-icon-style:  symbolic;
+}
+*/
