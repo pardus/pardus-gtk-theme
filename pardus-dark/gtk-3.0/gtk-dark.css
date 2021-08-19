@@ -1,1 +1,169 @@
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+@import url("colors-dark.css");
+
+
+/* iconview */
+
+iconview.view {
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+iconview.view:selected {
+    border-radius: 7px;
+    background-color: @theme_selected_bg_color;
+}
+
+iconview.view:selected:focus {
+    border-radius: 7px;
+    background-color: @theme_selected_bg_color;
+}
+
+iconview.view:backdrop {
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+iconview.view:selected:backdrop {
+    border-radius: 7px;
+    background-color: @theme_unfocused_selected_bg_color;
+}
+
+iconview.view:selected:backdrop:hover {
+    border-radius: 7px;
+    background-color: @theme_unfocused_selected_bg_color;
+}
+
+.view > iconview {
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+.view > iconview:hover {
+    background-color: @hover_color;
+}
+
+.view > iconview:hover:selected {
+    border-radius: 7px;
+    background-color: @theme_selected_bg_color;
+}
+
+.view > iconview:backdrop {
+    border-radius: 7px;
+    background-color: transparent;
+    color: @theme_unfocused_fg_color;
+}
+
+.view > iconview:backdrop:hover {
+    background-color: @hover_color;
+}
+
+
+/* headerbar buttons */
+/********************/
+
+headerbar button.titlebutton.close, headerbar button.titlebutton.maximize, headerbar button.titlebutton.minimize,
+.titlebar button.titlebutton.close,
+.titlebar button.titlebutton.maximize,
+.titlebar button.titlebutton.minimize {
+    color: transparent;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-width: 0;
+    border-radius: 5px;
+}
+    
+headerbar button.titlebutton.close:backdrop, headerbar button.titlebutton.maximize:backdrop, headerbar button.titlebutton.minimize:backdrop,
+.titlebar button.titlebutton.close:backdrop,
+.titlebar button.titlebutton.maximize:backdrop,
+.titlebar button.titlebutton.minimize:backdrop {
+    opacity: 1;
+}
+
+headerbar button.titlebutton.close:hover, headerbar button.titlebutton.maximize:hover, headerbar button.titlebutton.minimize:hover,
+.titlebar button.titlebutton.close:hover,
+.titlebar button.titlebutton.maximize:hover,
+.titlebar button.titlebutton.minimize:hover {
+    opacity: 1;
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    text-shadow: none;
+    -gtk-icon-shadow: none;
+    transition: none;
+}
+
+/* normal */
+headerbar button.titlebutton.close, .titlebar button.titlebutton.close {
+     background-image: -gtk-scaled(url("assets/close.svg"), url("assets/close.svg"));
+}
+ headerbar button.titlebutton.maximize, .titlebar button.titlebutton.maximize {
+     background-image: -gtk-scaled(url("assets/max.svg"), url("assets/max.svg"));
+}
+ headerbar button.titlebutton.minimize, .titlebar button.titlebutton.minimize {
+     background-image: -gtk-scaled(url("assets/min.svg"), url("assets/min.svg"));
+}
+
+/* hover */
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:hover {
+    background-image: -gtk-scaled(url("assets/close-hover.svg"), url("assets/close-hover.svg"));
+}
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:hover {
+    background-image: -gtk-scaled(url("assets/max-hover.svg"), url("assets/max-hover.svg"));
+}
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:hover {
+    background-image: -gtk-scaled(url("assets/min-hover.svg"), url("assets/min-hover.svg"));
+}
+
+/* click */
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:active {
+    background-image: -gtk-scaled(url("assets/close-active.svg"), url("assets/close-active.svg"));
+}
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:active {
+    background-image: -gtk-scaled(url("assets/max-active.svg"), url("assets/max-active.svg"));
+}
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:active {
+    background-image: -gtk-scaled(url("assets/min-active.svg"), url("assets/min-active.svg"));
+}
+
+/* backdrop */
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:backdrop {
+    background-image: -gtk-scaled(url("assets/close-backdrop.svg"), url("assets/close-backdrop.svg"));
+}
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:backdrop {
+    background-image: -gtk-scaled(url("assets/max-backdrop.svg"), url("assets/max-backdrop.svg"));
+}
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:backdrop {
+    background-image: -gtk-scaled(url("assets/min-backdrop.svg"), url("assets/min-backdrop.svg"));
+}
+
+/* backdrop hover*/
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:backdrop:hover {
+    background-image: -gtk-scaled(url("assets/close-backdrop-hover.svg"), url("assets/close-backdrop-hover.svg"));
+}
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:backdrop:hover {
+    background-image: -gtk-scaled(url("assets/max-backdrop-hover.svg"), url("assets/max-backdrop-hover.svg"));
+}
+headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:backdrop:hover {
+    background-image: -gtk-scaled(url("assets/min-backdrop-hover.svg"), url("assets/min-backdrop-hover.svg"));
+}
+
+/* Switch */
+
+switch slider {
+     min-width: 20px;
+     min-height: 20px;
+}
+
+/* panel */
+
+/*
+.xfce4-panel {
+    -gtk-icon-style:  symbolic;
+}
+*/
+
+#whiskermenu-button  {
+    -gtk-icon-style:  symbolic;
+}
