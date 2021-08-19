@@ -1,9 +1,0 @@
-[X-GNOME-Metatheme]
-Name=Pardus
-Type=X-GNOME-Metatheme
-Comment=Pardus Dolunay GTK Theme
-Encoding=UTF-8
-GtkTheme=Pardus
-IconTheme=Pardus
-CursorTheme=Pardus
-CursorSize=24

@@ -1,0 +1,9 @@
+[X-GNOME-Metatheme]
+Name=Pardus Dark
+Type=X-GNOME-Metatheme
+Comment=Dark GTK theme for Pardus
+Encoding=UTF-8
+GtkTheme=pardus-dark
+IconTheme=pardus-dark
+CursorTheme=pardus-dark
+CursorSize=24
