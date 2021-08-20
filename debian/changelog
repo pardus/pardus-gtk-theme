@@ -1,3 +1,10 @@
+pardus-gtk-theme (0.1.1) unstable; urgency=medium
+
+  * Add lightdm greeter confs
+  * Update dark lightdm bg color
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 20 Aug 2021 18:25:01 +0300
+
 pardus-gtk-theme (0.1.0) unstable; urgency=medium
 
   * Initial release.
