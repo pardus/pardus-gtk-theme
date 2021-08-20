@@ -1,0 +1,65 @@
+@define-color lightdm_bg_color #868079;
+@define-color lightdm_fg_color #1a1a1a;
+@define-color lightdm_bg_color_b #ffffff;
+
+#login_window,
+#restart_dialog,
+#shutdown_dialog,
+#login_notebook {
+    background-color: alpha(@lightdm_bg_color_b, 0.1);
+
+    border-width: 0px;
+    border-style: solid;
+    border-color: alpha(@lightdm_bg_color_b, 0.1);
+    box-shadow: inset 1px 0px alpha(@lightdm_bg_color_b,0.1),
+		inset -1px 0px alpha(@lightdm_bg_color_b,0.2),
+		inset 0px 1px alpha(@lightdm_bg_color_b,0.2),
+                inset 0px -1px alpha(@lightdm_bg_color_b,0.1);
+    border-radius: 10px;
+}
+
+#login_box,
+#restart_dialog,
+#shutdown_dialog,
+#panel_window,
+#login_notebook {
+    background-color: alpha(@lightdm_bg_color_b, 0.1);
+    outline-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#panel_window{
+    border-radius: 0px;
+}
+
+#login_window button:hover, 
+#login_window button, 
+#login_window entry:hover, 
+#login_window entry, 
+#restart_dialog button:hover, 
+#restart_dialog button,
+#shutdown_dialog button:hover, 
+#shutdown_dialog button
+{
+    border-radius: 5px;
+    outline-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: alpha(@lightdm_bg_color_b, 0.3);
+    color: @lightdm_fg_color;
+    background: alpha(@lightdm_bg_color_b, 0.3);
+    text-shadow: none;    
+    box-shadow: inset 1px 0px alpha(@lightdm_bg_color_b,0.1),
+		inset -1px 0px alpha(@lightdm_bg_color_b,0.2),
+		inset 0px 1px alpha(@lightdm_bg_color_b,0.2),
+                inset 0px -1px alpha(@lightdm_bg_color_b,0.1);
+
+}
+#greeter_infobar *,
+#login_window {
+    background: none;
+    shadow: none;
+    border: none;
+    border-style: none;
+    background-color: transparent;
+}
