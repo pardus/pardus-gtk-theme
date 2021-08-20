@@ -1,6 +1,6 @@
 @define-color lightdm_bg_color #868079;
 @define-color lightdm_fg_color #e0e0e0;
-@define-color lightdm_bg_color_b #000000;
+@define-color lightdm_bg_color_b #313131;
 
 #login_window,
 #restart_dialog,
@@ -23,7 +23,7 @@
 #shutdown_dialog,
 #panel_window,
 #login_notebook {
-    background-color: alpha(@lightdm_bg_color_b, 0.2);
+    background-color: alpha(@lightdm_bg_color_b, 0.31);
     outline-color: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
