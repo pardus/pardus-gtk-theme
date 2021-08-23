@@ -58,7 +58,6 @@
 #greeter_infobar *,
 #login_window {
     background: none;
-    shadow: none;
     border: none;
     border-style: none;
     background-color: transparent;
