@@ -1,3 +1,11 @@
+pardus-gtk-theme (0.1.2) unstable; urgency=medium
+
+  [ Ali Rıza KESKİN ]
+  * Update 'pardus/gtk-3.0/lightdm.css'
+  * Update 'pardus-dark/gtk-3.0/lightdm.css'
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 01 Sep 2021 15:18:29 +0300
+
 pardus-gtk-theme (0.1.1) unstable; urgency=medium
 
   * Add lightdm greeter confs
