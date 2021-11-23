@@ -1,3 +1,10 @@
+pardus-gtk-theme (0.1.3) unstable; urgency=medium
+
+  [ Yusuf Düzgün ]
+  * fixed inactive window's action buttons color problem
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Tue, 23 Nov 2021 17:48:46 +0300
+
 pardus-gtk-theme (0.1.2) unstable; urgency=medium
 
   [ Ali Rıza KESKİN ]
