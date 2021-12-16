@@ -5,37 +5,37 @@
 /* iconview */
 
 iconview.view {
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: transparent;
 }
 
 iconview.view:selected {
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: @theme_selected_bg_color;
 }
 
 iconview.view:selected:focus {
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: @theme_selected_bg_color;
 }
 
 iconview.view:backdrop {
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: transparent;
 }
 
 iconview.view:selected:backdrop {
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: @theme_unfocused_selected_bg_color;
 }
 
 iconview.view:selected:backdrop:hover {
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: @theme_unfocused_selected_bg_color;
 }
 
 .view > iconview {
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: transparent;
 }
 
@@ -44,12 +44,12 @@ iconview.view:selected:backdrop:hover {
 }
 
 .view > iconview:hover:selected {
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: @theme_selected_bg_color;
 }
 
 .view > iconview:backdrop {
-    border-radius: 7px;
+    border-radius: 5px;
     background-color: transparent;
     color: @theme_unfocused_fg_color;
 }
