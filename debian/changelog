@@ -1,3 +1,10 @@
+pardus-gtk-theme (0.1.4) unstable; urgency=medium
+
+  * Update all border-radius values as 5px
+  * Add pardus-software class for border-radius values
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 20 Dec 2021 19:44:53 +0300
+
 pardus-gtk-theme (0.1.3) unstable; urgency=medium
 
   [ Yusuf Düzgün ]
