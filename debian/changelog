@@ -1,3 +1,12 @@
+pardus-gtk-theme (0.1.5) unstable; urgency=medium
+
+  * Add @2 assets of pardus gtk3 theme
+  * Add @2 image paths to pardus gtk3 theme css files
+  * Add @2 assets of pardus-dark gtk3 theme
+  * Add @2 image paths to pardus-dark gtk3 theme css files
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Tue, 15 Feb 2022 18:55:55 +0300
+
 pardus-gtk-theme (0.1.4) unstable; urgency=medium
 
   * Update all border-radius values as 5px
