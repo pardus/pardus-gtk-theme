@@ -107,13 +107,13 @@ headerbar button.titlebutton.close, .titlebar button.titlebutton.close {
 
 /* normal */
 xfce4-panel headerbar button.titlebutton.close, .titlebar button.titlebutton.close {
-     background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/close.svg"), url("../../pardus-dark/gtk-3.0/assets/close.svg"));
+     background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/close.svg"), url("../../pardus-dark/gtk-3.0/assets/close@2.svg"));
 }
 xfce4-panel headerbar button.titlebutton.maximize, .titlebar button.titlebutton.maximize {
-     background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/max.svg"), url("../../pardus-dark/gtk-3.0/assets/max.svg"));
+     background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/max.svg"), url("../../pardus-dark/gtk-3.0/assets/max@2.svg"));
 }
 xfce4-panel headerbar button.titlebutton.minimize, .titlebar button.titlebutton.minimize {
-     background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/min.svg"), url("../../pardus-dark/gtk-3.0/assets/min.svg"));
+     background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/min.svg"), url("../../pardus-dark/gtk-3.0/assets/min@2.svg"));
 }
 
 
@@ -130,13 +130,13 @@ headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:
 
 /* hover */
 xfce4-panel headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:hover {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/close-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/close-hover.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/close-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/close-hover@2.svg"));
 }
 xfce4-panel headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:hover {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/max-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/max-hover.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/max-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/max-hover@2.svg"));
 }
 xfce4-panel headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:hover {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/min-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/min-hover.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/min-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/min-hover@2.svg"));
 }
 
 /* click */
@@ -152,13 +152,13 @@ headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:
 
 /* click */
 xfce4-panel headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:active {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/close-active.svg"), url("../../pardus-dark/gtk-3.0/assets/close-active.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/close-active.svg"), url("../../pardus-dark/gtk-3.0/assets/close-active@2.svg"));
 }
 xfce4-panel headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:active {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/max-active.svg"), url("../../pardus-dark/gtk-3.0/assets/max-active.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/max-active.svg"), url("../../pardus-dark/gtk-3.0/assets/max-active@2.svg"));
 }
 xfce4-panel headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:active {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/min-active.svg"), url("../../pardus-dark/gtk-3.0/assets/min-active.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/min-active.svg"), url("../../pardus-dark/gtk-3.0/assets/min-active@2.svg"));
 }
 
 /* backdrop */
@@ -174,13 +174,13 @@ headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:
 
 /* backdrop */
 xfce4-panel headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:backdrop {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/close-backdrop.svg"), url("../../pardus-dark/gtk-3.0/assets/close-backdrop.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/close-backdrop.svg"), url("../../pardus-dark/gtk-3.0/assets/close-backdrop@2.svg"));
 }
 xfce4-panel headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:backdrop {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/max-backdrop.svg"), url("../../pardus-dark/gtk-3.0/assets/max-backdrop.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/max-backdrop.svg"), url("../../pardus-dark/gtk-3.0/assets/max-backdrop@2.svg"));
 }
 xfce4-panel headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:backdrop {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/min-backdrop.svg"), url("../../pardus-dark/gtk-3.0/assets/min-backdrop.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/min-backdrop.svg"), url("../../pardus-dark/gtk-3.0/assets/min-backdrop@2.svg"));
 }
 
 /* backdrop hover*/
@@ -196,13 +196,13 @@ headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:
 
 /* backdrop hover*/
 headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:backdrop:hover {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/close-backdrop-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/close-backdrop-hover.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/close-backdrop-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/close-backdrop-hover@2.svg"));
 }
 headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:backdrop:hover {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/max-backdrop-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/max-backdrop-hover.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/max-backdrop-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/max-backdrop-hover@2.svg"));
 }
 headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:backdrop:hover {
-    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/min-backdrop-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/min-backdrop-hover.svg"));
+    background-image: -gtk-scaled(url("../../pardus-dark/gtk-3.0/assets/min-backdrop-hover.svg"), url("../../pardus-dark/gtk-3.0/assets/min-backdrop-hover@2.svg"));
 }
 
 /* Switch */
