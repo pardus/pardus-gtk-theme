@@ -1,7 +1,7 @@
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
 @import url("colors-dark.css");
 @import url("lightdm.css");
-
+@import url("../../pardus/gtk-3.0/pardus-software.css");
 
 /* iconview */
 

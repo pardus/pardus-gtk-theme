@@ -1,6 +1,7 @@
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
 @import url("colors-dark.css");
 @import url("lightdm.css");
+@import url("pardus-software.css");
 
 /* iconview */
 
@@ -223,19 +224,4 @@ switch slider {
 
 #whiskermenu-button  {
     -gtk-icon-style:  symbolic;
-}
-
-
-/* pardus-software */
-/********************/
-
-.pardus-software-frame > border{
-    border-radius: 5px;
-}
-
-.pardus-software-notebook.view,
-.pardus-software-notebook.frame,
-.pardus-software-notebook > *,
-.pardus-software-notebook > header *{
-    border-radius: 5px 5px 0 0;
 }
