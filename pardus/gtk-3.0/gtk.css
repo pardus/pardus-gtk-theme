@@ -74,6 +74,17 @@ headerbar button.titlebutton.close, headerbar button.titlebutton.maximize, heade
     background-repeat: no-repeat;
     border-width: 0;
     border-radius: 5px;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 0;
+}
+
+headerbar windowicon,
+.titlebar windowicon,
+headerbar image.titlebar-icon,
+.titlebar image.titlebar-icon {
+    min-width: 16px;
+    min-height: 16px;
 }
     
 headerbar button.titlebutton.close:backdrop, headerbar button.titlebutton.maximize:backdrop, headerbar button.titlebutton.minimize:backdrop,
@@ -111,43 +122,43 @@ headerbar button.titlebutton.close, .titlebar button.titlebutton.close {
 headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:hover {
     background-image: -gtk-scaled(url("assets/close-hover.svg"), url("assets/close-hover@2.svg"));
 }
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:hover {
+headerbar button.titlebutton.maximize:hover, .titlebar button.titlebutton.maximize:hover {
     background-image: -gtk-scaled(url("assets/max-hover.svg"), url("assets/max-hover@2.svg"));
 }
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:hover {
+headerbar button.titlebutton.minimize:hover, .titlebar button.titlebutton.minimize:hover {
     background-image: -gtk-scaled(url("assets/min-hover.svg"), url("assets/min-hover@2.svg"));
 }
 
 /* click */
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:active {
+headerbar button.titlebutton.close:active, .titlebar button.titlebutton.close:active {
     background-image: -gtk-scaled(url("assets/close-active.svg"), url("assets/close-active@2.svg"));
 }
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:active {
+headerbar button.titlebutton.maximize:active, .titlebar button.titlebutton.maximize:active {
     background-image: -gtk-scaled(url("assets/max-active.svg"), url("assets/max-active@2.svg"));
 }
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:active {
+headerbar button.titlebutton.minimize:active, .titlebar button.titlebutton.minimize:active {
     background-image: -gtk-scaled(url("assets/min-active.svg"), url("assets/min-active@2.svg"));
 }
 
 /* backdrop */
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:backdrop {
+headerbar button.titlebutton.close:backdrop, .titlebar button.titlebutton.close:backdrop {
     background-image: -gtk-scaled(url("assets/close-backdrop.svg"), url("assets/close-backdrop@2.svg"));
 }
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:backdrop {
+headerbar button.titlebutton.maximize:backdrop, .titlebar button.titlebutton.maximize:backdrop {
     background-image: -gtk-scaled(url("assets/max-backdrop.svg"), url("assets/max-backdrop@2.svg"));
 }
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:backdrop {
+headerbar button.titlebutton.minimize:backdrop, .titlebar button.titlebutton.minimize:backdrop {
     background-image: -gtk-scaled(url("assets/min-backdrop.svg"), url("assets/min-backdrop@2.svg"));
 }
 
 /* backdrop hover*/
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.close:backdrop:hover {
+headerbar button.titlebutton.close:backdrop:hover, .titlebar button.titlebutton.close:backdrop:hover {
     background-image: -gtk-scaled(url("assets/close-backdrop-hover.svg"), url("assets/close-backdrop-hover@2.svg"));
 }
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.maximize:backdrop:hover {
+headerbar button.titlebutton.maximize:backdrop:hover, .titlebar button.titlebutton.maximize:backdrop:hover {
     background-image: -gtk-scaled(url("assets/max-backdrop-hover.svg"), url("assets/max-backdrop-hover@2.svg"));
 }
-headerbar button.titlebutton.close:hover, .titlebar button.titlebutton.minimize:backdrop:hover {
+headerbar button.titlebutton.minimize:backdrop:hover, .titlebar button.titlebutton.minimize:backdrop:hover {
     background-image: -gtk-scaled(url("assets/min-backdrop-hover.svg"), url("assets/min-backdrop-hover@2.svg"));
 }
 
